@@ -1,0 +1,137 @@
+main{
+  margin-left:300px;
+  margin-top:20px;
+}
+#section-0{
+  background-color:#E0A9C8;
+  padding:5px;
+}
+#section-1{
+  background-color:#F1B7D8;
+  padding:5px;
+}
+#section-2{
+  background-color:#EAD1E1;
+  padding:5px;
+}
+#section-3{
+  background-color:#C8D9DD;
+  padding:5px;
+}
+#section-4{
+  background-color:#B0C6CB;
+  padding:5px;
+}
+#section-5{
+  background-color:#8AA7AD;
+  padding:5px;
+}
+
+.labels{
+  float:left;
+  width:50px;
+  height:50px;
+  object-fit:cover;
+  border-radius:30px;
+}
+.container{
+  position:relative;
+  width:100%;
+  max-width:1200px;
+  height:800px;
+  background:#e9e0e7;
+  margin:50px;
+  box-shadow: 0 50px 75px rgba(110, 60, 94, 0.1);
+  border-left:50px solid #e9e0e7; 
+  border-right: 50px solid #e9e0e7;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+input{
+  display:none;
+}
+
+section div{
+  display:none;
+  width:95%;
+}
+
+#radio-section-0:checked ~ #section-0 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+
+#radio-section-1:checked ~ #section-1 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+#radio-section-2:checked ~ #section-2 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+#radio-section-3:checked ~ #section-3 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+#radio-section-4:checked ~ #section-4 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+#radio-section-5:checked ~ #section-5 label{
+  transition: font-size .5s, text-shadow .5s;
+  font-size:30px;
+  text-shadow: 1px 1px 2px gray;
+}
+
+
+#radio-section-0:checked ~ #section-0 div{
+  display:block;
+}
+#radio-section-1:checked ~ #section-1 div{
+  display:block;
+}
+#radio-section-2:checked ~ #section-2 div{
+  display:block;
+}
+#radio-section-3:checked ~ #section-3 div{
+  display:block;
+}
+#radio-section-4:checked ~ #section-4 div{
+  display:block;
+}
+#radio-section-5:checked ~ #section-5 div{
+  display:block;
+}
+
+
+
+.education-content .UNC p{
+  line-height:18px;
+  
+}
+.major-title{
+  font-weight:bold;
+  font-family:Arial;
+  font-size:15px;
+}
+.last-line{
+  padding-bottom:20px;
+}
+
+ul{
+  display:list-item;
+  padding-left:2px;
+  margin-left:40px;
+}
+
+.extras{
+  font-weight:bold;
+}
+span{
+  font-weight:normal;
+}

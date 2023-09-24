@@ -1,0 +1,167 @@
+.left-sidebar{
+  display:flex;
+  position:absolute;
+  justify-content:center;
+  left:-50px;
+  top:0;
+  bottom:0;
+  margin:0;
+  width:300px;
+  background-color:rgb(206, 196, 205);
+  box-shadow: 3px 0 30px rgba(110, 60, 94, 0.1);
+  z-index:100;
+}
+.pictures{
+  display:flex;
+  justify-content:center;
+  height:300px;
+  width:300px;
+  position:absolute;
+}
+
+.left-sidebar:hover .resume-picture{
+  height:260px;
+  width:260px;
+}
+
+
+.left-sidebar:hover .information2{
+  margin-top:150px;
+}
+.resume-picture{
+  width:130px;
+  height:130px;
+  border-radius:125px;
+  object-fit:cover;
+  object-position:100% 40%;
+  margin-top:25px;
+  transition:height 0.5s, width 0.5s;
+  border-style:solid;
+  border-width:1px;
+}
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #e9e9e9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:540;
+}
+.information2{
+  display:flex;
+  position:relative;
+  top:150px;
+  left:15px;
+  white-space:nowrap;
+  transition: margin-top .5s;
+}
+.contact{
+  font-family:Arial;
+}
+.name{
+  font-weight:bold;
+  font-size:28px;
+}
+
+.info-list, .skills-list{
+  list-style-type: none;
+  margin-left:10px;
+  font-family:'Times New Roman', Times, serif;
+}
+.info-list li{
+  margin-bottom:12px;
+  margin-left:-30px;
+  display:flex;
+  align-items:center;
+}
+
+.info-list li::before{
+  color:transparent;
+  font-size:1px;
+  content:" ";
+  margin-left: -1.3em;
+  margin-right:11px;
+  padding:10px;
+  background-color:rgb(109, 108, 108);
+  -webkit-mask-image: url("../Icons/bug-solid.svg");
+  -webkit-mask-size:cover;
+}
+
+.skills-container{
+  display:flex;
+  position:absolute;
+  left:0;
+  top:530px;
+  bottom:0;
+  right:0;
+}
+.skills-header{
+  height:28px;
+  z-index:100;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:300px;
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(0, 0, 0, .3);
+  border-top-width:2px;
+  border-top-style:solid;
+  border-top-color:rgb(0, 0, 0, .3);
+  font-family:'Times New Roman', Times, serif;
+  font-size:22px;
+}
+.skills{
+  display:flex;
+  position:absolute;
+  z-index:150;
+  top:25px;
+  left:50px;
+}
+
+.skills-list li{
+  margin-top:5px;
+  display:flex;
+  align-items:center;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+}
+.skills-list li::before{
+  color:transparent;
+  font-size:1px;
+  content:" ";
+  margin-left: -1.3em;
+  margin-right:11px;
+  padding:11px;
+}
+.html::before{
+  background-color:rgb(61, 158, 158);
+  -webkit-mask-image: url("../Icons/html-16-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
+.java::before{
+  background-color:rgb(158, 124, 61);
+  -webkit-mask-image: url("../Icons/java-16-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
+.css::before{
+  background-color:rgb(34, 77, 196);
+  -webkit-mask-image: url("../Icons/css-16-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
+.calculus::before{
+  background-color:rgb(0, 0, 0);
+  -webkit-mask-image: url("../Icons/math-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
+.problem::before{
+  background-color:rgb(0, 0, 0);
+  -webkit-mask-image: url("../Icons/problem-solving-skill-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
+.teamwork::before{
+  background-color:rgb(0, 0, 0);
+  -webkit-mask-image: url("../Icons/work-together-collaborate-co-operate-join-forces-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
