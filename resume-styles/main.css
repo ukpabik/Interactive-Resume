@@ -117,7 +117,15 @@ section div{
 .major-title{
   font-weight:bold;
   font-family:Arial;
-  font-size:15px;
+  font-size:16px;
+  margin-bottom:10px;
+}
+.sub-title{
+  font-weight:bold;
+  font-family:Arial;
+  font-size:14px;
+  text-decoration:underline;
+  margin-top:0;
 }
 .last-line{
   padding-bottom:20px;
