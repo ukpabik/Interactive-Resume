@@ -145,6 +145,11 @@ body{
   -webkit-mask-image: url("../Icons/java-16-svgrepo-com.svg");
   -webkit-mask-size:cover;
 }
+.javascript::before{
+  background-color:black;
+  -webkit-mask-image: url("../Icons/javascript-16-svgrepo-com.svg");
+  -webkit-mask-size:cover;
+}
 .git::before{
   background-color:rgb(207, 79, 57);
   -webkit-mask-image: url("../Icons/git-svgrepo-com.svg");
