@@ -30,8 +30,6 @@ main{
 
 .labels{
   float:left;
-  width:50px;
-  height:50px;
   object-fit:cover;
   border-radius:30px;
 }
@@ -56,58 +54,21 @@ input{
 
 section div{
   display:none;
-  width:95%;
+  width:100%;
 }
 
-#radio-section-0:checked ~ #section-0 label{
-  transition: font-size .5s, text-shadow .5s;
-  font-size:30px;
-  text-shadow: 1px 1px 2px gray;
-}
-
-#radio-section-1:checked ~ #section-1 label{
-  transition: font-size .5s, text-shadow .5s;
-  font-size:30px;
-  text-shadow: 1px 1px 2px gray;
-}
-#radio-section-2:checked ~ #section-2 label{
-  transition: font-size .5s, text-shadow .5s;
-  font-size:30px;
-  text-shadow: 1px 1px 2px gray;
-}
-#radio-section-3:checked ~ #section-3 label{
-  transition: font-size .5s, text-shadow .5s;
-  font-size:30px;
-  text-shadow: 1px 1px 2px gray;
-}
-#radio-section-4:checked ~ #section-4 label{
-  transition: font-size .5s, text-shadow .5s;
-  font-size:30px;
-  text-shadow: 1px 1px 2px gray;
-}
-#radio-section-5:checked ~ #section-5 label{
+#radio-section-0:checked ~ #section-0 label, #radio-section-1:checked ~ #section-1 label,
+#radio-section-2:checked ~ #section-2 label, #radio-section-3:checked ~ #section-3 label,
+#radio-section-4:checked ~ #section-4 label, #radio-section-5:checked ~ #section-5 label{
   transition: font-size .5s, text-shadow .5s;
   font-size:30px;
   text-shadow: 1px 1px 2px gray;
 }
 
 
-#radio-section-0:checked ~ #section-0 div{
-  display:block;
-}
-#radio-section-1:checked ~ #section-1 div{
-  display:block;
-}
-#radio-section-2:checked ~ #section-2 div{
-  display:block;
-}
-#radio-section-3:checked ~ #section-3 div{
-  display:block;
-}
-#radio-section-4:checked ~ #section-4 div{
-  display:block;
-}
-#radio-section-5:checked ~ #section-5 div{
+#radio-section-0:checked ~ #section-0 div, #radio-section-1:checked ~ #section-1 div,
+#radio-section-2:checked ~ #section-2 div, #radio-section-3:checked ~ #section-3 div,
+#radio-section-4:checked ~ #section-4 div, #radio-section-5:checked ~ #section-5 div{
   display:block;
 }
 
