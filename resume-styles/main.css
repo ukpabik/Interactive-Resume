@@ -1,6 +1,7 @@
 main{
   margin-left:300px;
   margin-top:20px;
+  margin-bottom: 1rem;
 }
 #section-0{
   background-color:#E0A9C8;
@@ -35,10 +36,12 @@ main{
   border-radius:30px;
 }
 .container{
+  display:flex;
   position:relative;
   width:100%;
   max-width:1200px;
-  height:800px;
+  min-height: 50rem;
+  height:100%;
   background:#e9e0e7;
   margin:50px;
   box-shadow: 0 50px 75px rgba(110, 60, 94, 0.1);
